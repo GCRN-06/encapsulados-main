@@ -93,8 +93,8 @@ src/
 
 ## 📝 Licença
 
-TODO: Adicione sua licença aqui
+
 
 ## 🤝 Contribuição
 
-TODO: Adicione diretrizes de contribuição se necessário
+
