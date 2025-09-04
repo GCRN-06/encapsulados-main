@@ -6,10 +6,10 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "./",
   server: {
     // TODO: Configurar host e porta conforme necessário
     // host: ":57e2fdb8483d.ngrok-free.app  :",
-    base: "/encapsulado-main/",
     port: 8080,
   },
   plugins: [
