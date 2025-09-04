@@ -9,10 +9,11 @@ export default defineConfig(({ mode }) => ({
   server: {
     // TODO: Configurar host e porta conforme necessário
     // host: ":57e2fdb8483d.ngrok-free.app  :",
+    base: "/encapsulado-main/",
     port: 8080,
   },
   plugins: [
-    react(), 
+    react(),
     // TODO: Descomente se precisar do componentTagger
     // mode === "development" && componentTagger()
   ].filter(Boolean),
